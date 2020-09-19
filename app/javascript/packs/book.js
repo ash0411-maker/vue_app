@@ -22,18 +22,18 @@ new Vue({
 });
 
 
-new Vue({
-  el: ".js-bookIndex",
-  data: {
-    bookInfo: {},
-    bookInfoBool: false
-  },
-  methods: {
-    setBookInfo(id) {
-      axios.get("api/books/${id}.json").then(res => {
-        this.bookInfo = res.data;
-        this.bookInfoBool = true;
-      })
-    }
-  }
-})
+// new Vue({
+//   el: ".js-bookIndex",
+//   data: {
+//     bookInfo: {},
+//     bookInfoBool: false
+//   },
+//   methods: {
+//     setBookInfo(id) {
+//       axios.get("api/books/${id}.json").then(res => {
+//         this.bookInfo = res.data;
+//         this.bookInfoBool = true;
+//       })
+//     }
+//   }
+// })
