@@ -16,3 +16,12 @@ require("channels")
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
 //= require materialize
+
+
+import Vue from 'vue'
+import App from './App.vue'
+
+const app = new Vue({
+   el: '#app',
+   render: h => h(App)
+})
